@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(126, 184, 162);
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+form {
+  width: 60%;
+  margin: 4rem auto;
+  text-align: center;
+}
+
+.container>div {
+  width: 20%;
+  -webkit-box-shadow: 10px 14px 29px -6px rgb(50 99 83);
+  -moz-box-shadow: -2px 10px 31px -8px rgba(184, 184, 184, 1);
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  text-align: center;
+}
+
+.container>div h2 {
+  padding: 20px;
+}
+
+.inProgress h2 {
+  background: orange;
+}
+
+.onHold h2 {
+  background: red;
+}
+
+.review h2 {
+  background: yellow
+}
+
+.approved h2 {
+  background: green;
+}
+
+ul {
+  min-height: 250px;
+  list-style: none;
+}
+
+li {
+  padding: 20px;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type="text"] {
+  padding: 10px 20px;
+  width: 55%;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  color: #000;
+  border-radius: 5px;
+}
+
+.delete{
+  content: 'X';
+  padding: 10px 10px;
+  background-color: red;
+  border-radius: 50%;
+}
